@@ -84,3 +84,40 @@ i+=1
 } while i < n 
 
 // prints 1 2
+
+// ! The for - in Loop
+
+for index in 1...5 {
+    print("\(index) times 5 in \(index * 5)")
+}
+
+// prints :
+//1 times 5 is 5
+//2 times 5 is 10
+//3 times 5 is 15
+//4 times 5 is 20
+//5 times 5 is 25
+
+// ! Control Transfer
+
+// * Continue
+
+for num in 1...10 {
+    if num%2 == 0{
+    continue
+}
+print(num)
+}
+
+// prints 1 3 5  9
+// if num%1 ==0, there is no output
+
+var Num = 0
+while Num < 10 {
+    if Num % 2 == 0 {
+    continue
+}
+print(Num)
+}
+
+//prints 1 3 5 7 9
