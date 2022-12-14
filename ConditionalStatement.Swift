@@ -40,3 +40,29 @@ switch Distance {
         print("too far")
 }
 //prints "near"
+
+// ! where
+
+let myPoint = (1, -1)
+switch myPoint {
+    case let (x, y) where x == y:
+        print("(\(x). \(y)) is on the line x == y")
+    case let (x, y) where x == -y:
+        print("(\(x), \(y)) is on the line x == -y")
+    case let (x, y):
+        print("(\(x), \(y)) is just some arbitrary point")
+}
+// prints "(\(x), \(y)) is on the line x == -y"
+// if value (1, 2), terminal will display "(\(x), \(y)) is just some arbitrary point"
+
+// ! While loop
+
+var a = 1
+var b = 5
+while a < b {
+    print(a)
+    a+=1
+}
+
+// prints 1 2 3 4
+// if var a = 2 and b = 5, it will show 2 3 4 
