@@ -66,3 +66,21 @@ while a < b {
 
 // prints 1 2 3 4
 // if var a = 2 and b = 5, it will show 2 3 4 
+
+var x = 10
+repeat {
+        print(x)
+        x-=1
+} while x > 0
+
+// prints 1 2 3 4 5 6 7 8 9 10
+// if x -= 2, it will show 2 4 6 8 10
+// if x += 1, it will show 10 11 12 13 14 15 16... end so on ( increasing )
+
+var i = 1, n = 3
+repeat {
+	print(i)
+i+=1
+} while i < n 
+
+// prints 1 2
