@@ -98,7 +98,7 @@ for index in 1...5 {
 //4 times 5 is 20
 //5 times 5 is 25
 
-// ! Control Transfer
+// ! Control Transfer Statement
 
 // * Continue
 
@@ -121,3 +121,15 @@ print(Num)
 }
 
 //prints 1 3 5 7 9
+
+// ! Break in Loop
+
+var d = 7
+var e = 10
+while e > 0 {
+    if (e < d){
+     break
+    }
+    print(e)
+    e-=1  
+}
