@@ -28,3 +28,18 @@ if SomeString.isEmpty {
 }
 
 //prints "0"
+
+//! Concatenation
+
+let string1 = "Hello"
+let string2 = "Workld"
+var welcome = string1 + string2
+print(welcome)
+
+//prints Hello World
+
+var msg = "Hi"
+msg += " David"
+print(msg)
+
+//prints Hi David
