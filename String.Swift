@@ -43,3 +43,19 @@ msg += " David"
 print(msg)
 
 //prints Hi David
+
+// ! String Interpolation
+
+let mult = 4
+let message = "\(mult) times 1.5 is \(Double(mult) * 1.5)"
+print(message)
+
+//prints "4 times 1.5 is 6.0"
+
+//! Counting Characters
+
+let theString = "I am learning with SoloLearn"
+print("theString has \(theString.count) characters")
+
+//prints "someString has 28 characters"
+
